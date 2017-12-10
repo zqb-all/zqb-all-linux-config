@@ -1,0 +1,12 @@
+* [工作环境](工作环境/工作环境.md)
+* [终端软件](终端软件/终端软件.md)
+	* [ubuntu自带终端](终端软件/ubuntu自带终端.md)
+	* [guake下拉式终端](终端软件/guake下拉式终端.md)
+* [shell](shell/shell.md)
+	* [bash shell](shell/bash_shell.md)
+	* [fish shell](shell/fish_shell.md)
+* [常用软件](常用软件/常用软件.md)
+	* [ssh](常用软件/ssh.md)
+	* [sshfs](常用软件/sshfs.md)
+	* [git](常用软件/git.md)
+
