@@ -9,4 +9,9 @@
 	* [ssh](常用软件/ssh.md)
 	* [sshfs](常用软件/sshfs.md)
 	* [git](常用软件/git.md)
+	* [minicom](常用软件/minicom.md)
+	* [终端计算器](常用软件/终端计算器.md)
+	* [终端翻译](常用软件/终端翻译.md)
+	* [终端解压](常用软件/终端解压.md)
+	* [一些alias](常用软件/一些alias.md)
 
