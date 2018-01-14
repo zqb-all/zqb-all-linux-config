@@ -5,6 +5,7 @@
 * [shell](shell/shell.md)
 	* [bash shell](shell/bash_shell.md)
 	* [fish shell](shell/fish_shell.md)
+	* [zsh shell](shell/zsh_shell.md)
 * [常用软件](常用软件/常用软件.md)
 	* [ssh](常用软件/ssh.md)
 	* [sshfs](常用软件/sshfs.md)
