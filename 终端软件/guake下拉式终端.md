@@ -1,6 +1,34 @@
 目前使用的终端
 
-## 官方介绍
+##Guake3
+###Guake3说明
+Guake 在2018年被移植到了GTK3, 由于新的Guake是基于GTK3和Python3,开发人员决定跳过版本号1.x和2.x,直接升级到Guake 3.
+
+基于GTK2的旧版本，则被放到了分支0.8.x中，并不再维护。
+
+源码: [github](https://github.com/Guake/guake)
+官方主页: [guake-project](http://guake-project.org)
+在线文档: [ReadTheDocs](http://guake.readthedocs.io/)
+协助翻译: [weblate](https://hosted.weblate.org/projects/guake/guake/)
+
+###安装
+官方安装说明位于[Readthedocs](https://guake.readthedocs.io/en/stable/user/installing.html)
+
+####Debian / Ubuntu
+```bash
+sudo apt-get install guake
+```
+####Pypi
+Guake现在会自动发布到Pypi.可使用pip安装
+```bash
+pip install --user guake
+```
+注意，需要将以下路径加入到环境变量PATH中
+```bash
+$HOME/.local/bin
+```
+
+##官方介绍
 
 先从官方搬运一些介绍过来 http://guake-project.org/
 
