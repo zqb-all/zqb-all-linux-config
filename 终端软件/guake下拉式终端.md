@@ -57,6 +57,30 @@ sudo make uninstall && make && sudo make install
 # 或使用如下简写:
 make reinstall  # (do not sudo it!)
 ```
+###问题及解决
+在ubuntu16.04上安装后，启动时，报
+```bash
+[ERROR] Unable to start Guake, missing mandatory dependency: Keybinder 3
+```
+通过如下命令解决
+```bash
+sudo apt-get install gir1.2-keybinder-3.0
+```
+
+在启动时，报错，其中有些路径包含了python2.7字样
+
+解决方式,编辑
+```bash
+~/.local/bin/guake
+```
+将第一行的
+```bash
+#!/usr/bin/python
+```
+改为
+```bash
+#!/usr/bin/python3
+```
 
 ##官方介绍
 
