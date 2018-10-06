@@ -7,8 +7,11 @@ Guake 在2018年被移植到了GTK3, 由于新的Guake是基于GTK3和Python3,�
 基于GTK2的旧版本，则被放到了分支0.8.x中，并不再维护。
 
 源码: [github](https://github.com/Guake/guake)
+
 官方主页: [guake-project](http://guake-project.org)
+
 在线文档: [ReadTheDocs](http://guake.readthedocs.io/)
+
 协助翻译: [weblate](https://hosted.weblate.org/projects/guake/guake/)
 
 ###安装
@@ -26,6 +29,33 @@ pip install --user guake
 注意，需要将以下路径加入到环境变量PATH中
 ```bash
 $HOME/.local/bin
+```
+####从源码安装
+下载源码
+```bash
+git clone https://github.com/Guake/guake.git
+```
+安装依赖(Python,GTK,VTE等)
+
+可以使用源码中附带的脚本来安装依赖
+```bash
+ ./scripts/bootstrap-dev-[debian, arch, fedora].sh run make
+```
+安装命令
+```bash
+make
+sudo make install
+```
+卸载命令
+```bash
+make
+sudo make uninstall
+```
+重新安装命令
+```bash
+sudo make uninstall && make && sudo make install
+# 或使用如下简写:
+make reinstall  # (do not sudo it!)
 ```
 
 ##官方介绍
